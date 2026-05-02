@@ -43,6 +43,7 @@ public class Project extends BaseTimeEntity {
     @Column(name = "tech_stack")
     private List<String> techStacks = new ArrayList<>();
 
+    @Column(name = "project_year")
     private Integer year;
     private String semester;
     private String difficulty;
